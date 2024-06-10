@@ -295,7 +295,7 @@ form input, form textarea{
 form .btn2{
     padding: 14px 60px;
     font-size:  18px;
-    margin-top: 20px;
+    margin: 20px 0;
     cursor: pointer;
 }
 .copyright{
@@ -438,6 +438,22 @@ nav .fa-solid{
     width: 40%;
     animation: django 3s;
 }
+.angular_js{
+    width: 70%;
+    animation: angular_js 3s;
+}
+.java{
+    width: 50%;
+    animation: java 3s;
+}
+.my_sql{
+    width: 60%;
+    animation: my_sql 3s;
+}
+.git{
+    width: 40%;
+    animation: git 3s;
+}
 @keyframes html{
     0%{
         width: 0%;
@@ -463,6 +479,38 @@ nav .fa-solid{
     }
 }
 @keyframes django{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes angular_js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes my_sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes git{
     0%{
         width: 0%;
     }
