@@ -72,6 +72,10 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ababab;
+    width: 100%;
+    background-image: url(/images/Bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .row{
     display: flex;
@@ -87,6 +91,7 @@ nav ul li a:hover::after{
 }
 .about-col-2{
     flex-basis: 60%;
+    text-align: justify;
 }
 .sub-title{
     font-family: 60px;
@@ -135,6 +140,10 @@ nav ul li a:hover::after{
 /* ---------services---------- */
 #services{
     padding: 30px 0;
+    width: 100%;
+    background-image: url(/images/Bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .services-list{
     display: grid;
@@ -162,6 +171,9 @@ nav ul li a:hover::after{
     margin-top: 20px;
     display: inline-block;
 }
+.services-list div p{
+    text-align: justify;
+}
 .services-list div:hover{
     background: #ff004f;
     transform:  translateY(-10px);
@@ -170,6 +182,10 @@ nav ul li a:hover::after{
 /* ----------portfolio----------- */
 #portfolio{
     padding: 50px 0;
+    width: 100%;
+    background-image: url(/images/Bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .work-list{
     display: grid;
@@ -245,6 +261,12 @@ nav ul li a:hover::after{
 }
 
 /* ---------contact---------- */
+#contact{
+    width: 100%;
+    background-image: url(/images/Bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .contact-left{
     flex-basis: 35%;
 }
@@ -314,7 +336,11 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px) {
     #header{
+        width: 100%;
+        height: 100vh;
         background-image: url(/images/Bg.jpg);
+        background-size: cover;
+        background-position: center;
     }
     .logo{
         width: 80px;
@@ -382,6 +408,12 @@ nav .fa-solid{
 }
 
 /* ---------skills--------- */
+#skill{
+    width: 100%;
+    background-image: url(/images/Bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .skillset{
     width: 80%;
     padding: 30px 0;
