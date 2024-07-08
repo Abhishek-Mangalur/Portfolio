@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./images/Logo.png">
+    <link rel="icon" type="image/x-icon" href="/images/Logo.png">
     <script src="https://kit.fontawesome.com/c13c6f4160.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/> -->
 </head>
 <body>
     <div id="header">
@@ -24,8 +25,8 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Full Stack Developer</p>
                 <h1>Hi, I'm <span>Abhishek</span></h1>
+                <p>Full Stack Developer</p>
             </div>
         </div>
     </div>
@@ -56,7 +57,7 @@
                         <ul>
                             <li><span>B.E</span><br>Acharya Institute of Technology Bengaluru</li>
                             <li><span>Class XII</span><br>BVVS Science College Bagalkot</li>
-                            <li><span>Class X</span><br>RMSA Bagalkot</li>
+                            <li><span>Class X</span><br>Adarsha Vidyalaya RMSA Bagalkot</li>
                         </ul>
                     </div>
                 </div>
@@ -112,17 +113,17 @@
         <div class="container">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
-                <div>
+                <div class="service">
                     <h2>Web Designer</h2>
                     <p>A web designer is a professional who specializes in creating and designing websites. Their role involves a combination of creativity and technical skills to build visually appealing and functional websites</p>
                     <a href="https://www.geeksforgeeks.org/web-design/">Learn more</a>
                 </div>
-                <div>
+                <div class="service">
                     <h2>UI/UX Design</h2>
                     <p>UI (User Interface) and UX (User Experience) are closely related fields in web design and development, but they focus on different aspects of the user's interaction with a product or service</p>
                     <a href="https://www.geeksforgeeks.org/how-to-become-a-ui-ux-designer-a-complete-roadmap/">Learn more</a>
                 </div>
-                <div>
+                <div class="service">
                     <h2>App Design</h2>
                     <p>App development is the process of creating software applications that run on mobile devices, as well as other platforms like desktops and the web. It involves several stages, from idea conception to deployment and maintenance</p>
                     <a href="https://www.geeksforgeeks.org/how-to-design-an-app/">Learn more</a>
@@ -198,8 +199,9 @@
         </div>
     </div>
 
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
     <script>
-
+        // AOS.init();
         var tablinks=document.getElementsByClassName("tab-links");
         var tabcontents=document.getElementsByClassName("tab-contents");
 
