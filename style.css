@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/Bg.jpg);
+    background-image: url(/images/Bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -73,7 +73,7 @@ nav ul li a:hover::after{
     padding: 80px 0;
     color: #ababab;
     width: 100%;
-    background-image: url(./images/Bg.jpg);
+    background-image: url(/images/Bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -137,21 +137,21 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/* ---------services---------- */
-#services{
+/* ---------Projects---------- */
+#Projects{
     padding: 30px 0;
     width: 100%;
-    background-image: url(./images/Bg.jpg);
+    background-image: url(/images/Bg.jpg);
     background-size: cover;
     background-position: center;
 }
-.services-list{
+.Projects-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-.services-list div{
+.Projects-list div{
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -159,31 +159,31 @@ nav ul li a:hover::after{
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
 }
-.services-list div h2{
+.Projects-list div h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.services-list div a{
+.Projects-list div a{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
-.services-list div p{
+.Projects-list div p{
     text-align: justify;
 }
-.services-list div:hover{
+.Projects-list div:hover{
     background: #ff004f;
     transform:  translateY(-10px);
 }
 
-/* ----------portfolio----------- */
-#portfolio{
+/* ----------projects----------- */
+#projects{
     padding: 50px 0;
     width: 100%;
-    background-image: url(./images/Bg.jpg);
+    background-image: url(/images/Bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -263,7 +263,7 @@ nav ul li a:hover::after{
 /* ---------contact---------- */
 #contact{
     width: 100%;
-    background-image: url(./images/Bg.jpg);
+    background-image: url(/images/Bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -338,7 +338,7 @@ nav .fa-solid{
     #header{
         width: 100%;
         height: 100vh;
-        background-image: url(./images/Bg.jpg);
+        background-image: url(/images/Bg.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -410,7 +410,7 @@ nav .fa-solid{
 /* ---------skills--------- */
 #skill{
     width: 100%;
-    background-image: url(./images/Bg.jpg);
+    background-image: url(/images/Bg.jpg);
     background-size: cover;
     background-position: center;
 }
